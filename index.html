@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Slovník</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 60px;
+      background-color: #e8f0ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      color: #003366;
+      font-size: 78px;
+      touch-action: manipulation;
+    }
+
+    .emoji {
+      font-size: 200px;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 72px;
+      margin: 15px 0 40px;
+      color: #1f3b73;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .sport-button {
+      padding: 40px;
+      font-size: 66px;
+      font-weight: bold;
+      background-color: #d6e4ff;
+      border: 2px solid #003366;
+      color: #003366;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .sport-button:hover {
+      background-color: #c0d4ff;
+      transform: scale(1.02);
+    }
+
+    .sport-button:active {
+      transform: scale(0.98);
+    }
+
+    /* 🌙 Tmavý režim */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+
+      h1 {
+        color: #bbdefb;
+      }
+
+      .sport-button {
+        background-color: #1e2a38;
+        border-color: #90caf9;
+        color: #90caf9;
+      }
+
+      .sport-button:hover {
+        background-color: #263a4f;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Emoji namiesto obrázka -->
+  <div class="emoji">📖</div>
+
+  <h1>Slovník</h1>
+
+  <div class="button-container">
+    <a href="https://slovnik.juls.savba.sk/" class="sport-button" target="_blank">Slovník Slovenského jazyka</a>
+    <a href="https://translate.google.sk/?sl=en&tl=sk&op=translate" class="sport-button" target="_blank">Google prekladač</a>
+    
+
+  </div>
+
+</body>
+</html>
