@@ -4,7 +4,7 @@
   "description": "Rýchly prístup k viacerým online slovníkom a prekladom.",
   "lang": "sk",
   "dir": "ltr",
-  "start_url": "/index.html",
+  "start_url": "https://no-ship-it26.github.io/slovnik/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
